@@ -81,7 +81,6 @@ const config = {
           {type: 'docSidebar', sidebarId: 'sidebar1', position: 'left', label: 'Глава 1',},
           {type: 'docSidebar', sidebarId: 'sidebar2', position: 'left', label: 'Глава 2',},
           {type: 'docSidebar', sidebarId: 'sidebar3', position: 'left', label: 'Глава 3',},
-          {type: 'docSidebar', sidebarId: 'sidebar4', position: 'left', label: 'Глава 4',},
           
       ],
       },
