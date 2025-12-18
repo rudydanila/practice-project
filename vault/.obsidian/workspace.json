@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
+                "file": "docs/sidebar2/Основные команды и их применение. Терминал.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ОС Linux и семейство UNIX. Дистрибутивы Linux"
+              "title": "Основные команды и их применение. Терминал"
             }
           }
         ],
@@ -193,15 +193,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidiosaurus:Obsidiosaurus": false,
-      "minimal-quiz:Start quiz": false,
-      "flashcard-gen:Quiz Generator": false
+      "obsidiosaurus:Obsidiosaurus": false
     }
   },
   "active": "3a908d26758cbebb",
   "lastOpenFiles": [
-    "ОС Linux и семейство UNIX. Дистрибутивы Linux Quiz.md",
+    "docs/sidebar2/Тест.md",
+    "docs/sidebar2/Администрирование ОС.md",
+    "docs/sidebar2/Права доступа в ОС.md",
+    "docs/sidebar2/Основные команды и их применение. Терминал.md",
+    "docs/sidebar2/Терминал и командная строка в Linux.md",
+    "docs/sidebar1/Тест.md",
     "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
+    "ОС Linux и семейство UNIX. Дистрибутивы Linux Quiz.md",
     "docs/sidebar1/Лабораторные работы/Инсталляция Linux.md",
     "docs/sidebar1/Установка Linux.md",
     "docs/sidebar3/Лабораторные работы/Файловый менеджер. ЛР 16.md",
@@ -217,11 +221,7 @@
     "docs/sidebar3",
     "docs/sidebar2/Лабораторные работы/Работа с командной строкой. ЛР 14.mdx",
     "docs/sidebar2/Лабораторные работы/Использование приемов администрирования пользователей. ЛР 13.mdx",
-    "docs/sidebar2/Терминал и командная строка в Linux.md",
-    "docs/sidebar2/Права доступа в ОС.md",
-    "docs/sidebar2/Основные команды и их применение.md",
     "docs/sidebar2/Лабораторные работы",
-    "docs/sidebar2/Администрирование ОС.md",
     "docs/sidebar2",
     "docs/sidebar23/Лабораторные работы/Файловый менеджер. ЛР 16.md",
     "docs/sidebar23/Лабораторные работы/Управление файловой системой. ЛР 15.md",
@@ -234,8 +234,6 @@
     "docs/sidebar1/Пользовательский интерфейс..md",
     "docs/sidebar2/Процессы в ОС.md",
     "docs/sidebar2/Лабораторные работы/Управление файловой системой. ЛР 17.md",
-    "docs/sidebar2/Лабораторные работы/Файловый менеджер. ЛР 16.md",
-    "docs/sidebar2/Лабораторные работы/Файловый менеджер.md",
     "assets/Pasted image 20251216094702.png",
     "assets/Pasted image 20251216094607.png",
     "assets/niripreviewnew.gif",

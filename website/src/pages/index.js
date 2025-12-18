@@ -23,25 +23,35 @@ export default function Home() {
   return (
     <Layout title="Операционные системы" description="Учебный портал по Linux и UNIX">
       <main className={styles.hero}>
-        
-        {/* Параллакс-контейнер */}
         <div className={styles.parallaxLayer} ref={parallaxRef}>
           <div className={styles.blob1}></div>
           <div className={styles.blob2}></div>
           <div className={styles.blob3}></div>
         </div>
-
         <div className={styles.glassBox}>
           <h1 className={styles.title}>Операционные системы</h1>
           <p className={styles.subtitle}>Учебный портал по Linux</p>
 
           <div className={styles.buttonGrid}>
-            <Link className={styles.button} to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">Глава 1</Link>
-            <Link className={styles.button} to="/docs/sidebar2/Терминал и командная строка в Linux">Глава 2</Link>
-            <Link className={styles.button} to="/docs/sidebar3/Настройка ОС">Глава 3</Link>
+          <div>
+            <Link className={styles.button} to="docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">Глава 1</Link>
+            <p></p>
+            <p className={styles.desc}>Введение в ОС Linux. Основные понятия, инсталляция</p>
+          </div>
+
+          <div>
+            <Link className={styles.button} to="docs/sidebar2/Администрирование ОС">Глава 2</Link>
+            <p></p>
+            <p className={styles.desc}>Администрирование, работа с терминалом</p>
+          </div>
+
+          <div>
+            <Link className={styles.button} to="docs/sidebar3/Настройка ОС">Глава 3</Link>
+            <p></p>
+            <p className={styles.desc}>Процессы, управление ресурсами, файловой системой.</p>
           </div>
         </div>
-
+        </div>
       </main>
     </Layout>
   );
